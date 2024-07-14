@@ -1,5 +1,25 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-templexxx-cpu (0.1.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 0.1.0
+  * Prune patch for riscv (merged)
+  * Add patch for loong64 support (Closes: #1074376)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Nilesh Patra <nilesh@debian.org>  Sat, 06 Jul 2024 14:36:08 +0530
+
+golang-github-templexxx-cpu (0.0.9-3) unstable; urgency=medium
+
+  * Add upstream patch to fix riscv FTBFS (Closes: #1017785)
+
+ -- Nilesh Patra <nilesh@debian.org>  Thu, 25 Aug 2022 18:09:52 +0530
+
+golang-github-templexxx-cpu (0.0.9-2) unstable; urgency=medium
+
+  * Source-only upload for testing migration.
+
+ -- Nilesh Patra <nilesh@debian.org>  Sat, 06 Aug 2022 11:08:17 +0530
+
+golang-github-templexxx-cpu (0.0.9-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1016677)
+
+ -- Nilesh Patra <nilesh@debian.org>  Fri, 05 Aug 2022 09:07:28 +0530
